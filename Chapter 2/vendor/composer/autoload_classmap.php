@@ -6,4 +6,8 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
+    'Lsu\\DocumentStore' => $baseDir . '/src/DocumentStore.php',
+    'Lsu\\DocumentTest' => $baseDir . '/src/DocumentTest.php',
+    'Lsu\\Documentable' => $baseDir . '/src/Documentable.php',
+    'Lsu\\HtmlDocument' => $baseDir . '/src/HtmlDocument.php',
 );

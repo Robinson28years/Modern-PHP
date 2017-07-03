@@ -20,11 +20,19 @@ class ComposerStaticInit55d4dc50795ae32f35df2a89b7e27413
         ),
     );
 
+    public static $classMap = array (
+        'Lsu\\DocumentStore' => __DIR__ . '/../..' . '/src/DocumentStore.php',
+        'Lsu\\DocumentTest' => __DIR__ . '/../..' . '/src/DocumentTest.php',
+        'Lsu\\Documentable' => __DIR__ . '/../..' . '/src/Documentable.php',
+        'Lsu\\HtmlDocument' => __DIR__ . '/../..' . '/src/HtmlDocument.php',
+    );
+
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
             $loader->prefixLengthsPsr4 = ComposerStaticInit55d4dc50795ae32f35df2a89b7e27413::$prefixLengthsPsr4;
             $loader->prefixDirsPsr4 = ComposerStaticInit55d4dc50795ae32f35df2a89b7e27413::$prefixDirsPsr4;
+            $loader->classMap = ComposerStaticInit55d4dc50795ae32f35df2a89b7e27413::$classMap;
 
         }, null, ClassLoader::class);
     }
