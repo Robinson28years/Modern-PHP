@@ -1,13 +1,12 @@
 <?php
 namespace Lsu;
-use Lsu\HtmlDocument;
-use Lsu\DocumentTest;
-use Lsu\StreamDocument;
+
 require 'vendor/autoload.php';
 
 $document = new DocumentStore();
 
 $documentTest = new DocumentTest();
+$documentTest->sayHello();
 $document->addDocument($documentTest);
 
 $htmlDocument = new HtmlDocument('https://php.net');

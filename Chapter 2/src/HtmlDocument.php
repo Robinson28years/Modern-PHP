@@ -1,8 +1,8 @@
 <?php
 
 namespace Lsu;
+use Lsu\HtmlDocument;
 
-use Lsu\Documentable;
 class HtmlDocument implements Documentable
 {
     protected $url;
