@@ -25,6 +25,8 @@ class ComposerStaticInit55d4dc50795ae32f35df2a89b7e27413
         'Lsu\\DocumentTest' => __DIR__ . '/../..' . '/src/DocumentTest.php',
         'Lsu\\Documentable' => __DIR__ . '/../..' . '/src/Documentable.php',
         'Lsu\\HtmlDocument' => __DIR__ . '/../..' . '/src/HtmlDocument.php',
+        'Lsu\\StreamDocument' => __DIR__ . '/../..' . '/src/StreamDocument.php',
+        'Lsu\\TraitSayHello' => __DIR__ . '/../..' . '/src/TraitSayHello.php',
     );
 
     public static function getInitializer(ClassLoader $loader)

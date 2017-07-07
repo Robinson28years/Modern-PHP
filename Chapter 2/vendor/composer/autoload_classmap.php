@@ -10,4 +10,6 @@ return array(
     'Lsu\\DocumentTest' => $baseDir . '/src/DocumentTest.php',
     'Lsu\\Documentable' => $baseDir . '/src/Documentable.php',
     'Lsu\\HtmlDocument' => $baseDir . '/src/HtmlDocument.php',
+    'Lsu\\StreamDocument' => $baseDir . '/src/StreamDocument.php',
+    'Lsu\\TraitSayHello' => $baseDir . '/src/TraitSayHello.php',
 );
